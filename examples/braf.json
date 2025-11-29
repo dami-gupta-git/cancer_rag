@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cancerrag"
+version = "0.1.2"
+description = "LLM-powered cancer variant annotation using MyVariant.info"
+authors = [{name = "Dami Gupta", email = "dami.gupta@gmail.com"}]
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "typer[all]",
+    "httpx",
+    "openai",
+    "pydantic"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black"]
+
+[project.scripts]
+cancerrag = "cancerrag.cli:app"

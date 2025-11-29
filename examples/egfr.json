@@ -1,0 +1,8 @@
+{
+  "gene": "EGFR",
+  "variant": "L858R",
+  "classification": "Oncogenic",
+  "highest_level_of_evidence": "Level 1",
+  "recommended_therapies": ["Osimertinib", "Afatinib", "Gefitinib"],
+  "summary": "EGFR L858R is a classic activating mutation in lung adenocarcinoma with multiple FDA-approved EGFR inhibitors."
+}
